@@ -1,0 +1,48 @@
+
+.navbar{
+     height: 80px;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     justify-content: space-between;
+}
+
+
+.logo{
+    align-items: center;
+    display: flex;  
+    width: 30%; 
+}
+
+
+.logo img{
+    height: 100px;
+    margin-left: 40px;
+}
+
+.navlist{
+    width: 60%;
+   
+}
+
+
+.navlist ul {  
+    display: flex;
+    list-style: none;
+     justify-content:space-evenly;
+    align-items: center;
+    cursor: pointer;
+    font-family:monospace;
+    font-size: 18px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover{
+    color: white;
+}
