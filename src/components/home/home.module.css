@@ -1,0 +1,50 @@
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    color: gray;
+    background-color: #555353;
+    align-items: center;
+    font-family: monospace;
+    border-bottom: 2px solid black;
+}
+
+.con{
+    display: flex;
+    gap: 80px;
+}
+
+
+.image img{
+    height: 300px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 40%;
+    overflow: hidden; /* Ensure the circular border is visible */
+    animation: imageBorderRadiusAnimation 2s infinite alternate;
+    
+}
+
+
+@keyframes imageBorderRadiusAnimation {
+    0% {
+      border-radius: 25;
+    }
+    100% {
+      border-radius: 60%;
+    }
+  }
+
+.techSTack{
+    gap: 20px;
+    display: flex;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.techSTack img:hover{
+    scale: 1.2;
+}

@@ -1,0 +1,8 @@
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 90vh;
+}

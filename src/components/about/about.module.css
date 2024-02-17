@@ -1,0 +1,16 @@
+
+
+.about{
+    color: white;
+    background-image: url('../../images/abc.jpg');
+    opacity: 0.7;
+    background-size: cover;
+     background-position: center center;
+    display: flex;
+    background-color: rgb(216, 216, 230);
+    height: 90vh;
+    padding-left: 20px;
+    font-family: monospace;
+    
+}
+
