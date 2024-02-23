@@ -7,10 +7,91 @@
     background-size: cover;
      background-position: center center;
     display: flex;
+    flex-direction: column;
     background-color: rgb(216, 216, 230);
     height: 90vh;
     padding-left: 20px;
-    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
+
+.description{
+    background-color: white;
+    height: 70vh;
+    width: 40vw;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+}
+
+
+.upworkButton{
+    border: 1px solid green;
+    width: 140px;
+    padding: 10px;
+    border-radius: 6px;
+    color: green;
+    cursor: pointer;
+}
+
+.upworkButton:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.githubButton{
+    border: 1px solid #2b3137;
+    width: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #2b3137;
+    cursor: pointer;
+}
+
+.githubButton:hover{
+    background-color: #2b3137;
+    color: white;
+}
+
+.linkedinButton{
+    border: 1px solid #0077b5;
+    width: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #0077b5;
+    cursor: pointer;
+}
+
+.linkedinButton:hover{
+    background-color: #0077b5;
+    color: white;
+}
+
+
+.resumeButton{
+    border: 1px solid #040a0d;
+    width: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #040a0d;
+    cursor: pointer;
+}
+
+.resumeButton:hover{
+    background-color: #040a0d;
+    color: white;
+}
