@@ -1,234 +1,177 @@
 import React from 'react'
 import styles from './skills.module.css'
-import checkMark from '../../images/checkmark.png'
+
+import downArrow from '../../images/arrow.png'
+import upArrow from '../../images/uparrow.png'
+
+import htmlIcon from '../../images/HTML.png'
+import CssIcon from '../../images/CSS.png'
+import javaScriptIcon from '../../images/javaScript.png'
+import ReactIcon from '../../images/react.png'
+import pythonIcon from '../../images/python.png'
+import CIcon from '../../images/c++.png'
+import bootstrapIcon from '../../images/bootstrap.png'
+import djangoIcon from '../../images/django.png'
+import expressIcon from '../../images/express.png'
+import firebaseIcon from '../../images/firebase.png'
+import gitIcon from '../../images/git.png'
+import herokuIcon from '../../images/heroku.png'
+import mariaDBIcon from '../../images/mariaDB.png'
+import materialUIIcon from '../../images/materialUI.png'
+import mongoIcon from '../../images/mongoDB.png'
+import mySqlIcon from '../../images/MySql.png'
+import netlifyIcon from '../../images/netlify.png'
+import NextIcon from '../../images/NEXT.png'
+import nodeIcon from '../../images/node.png'
+import reduxIcon from '../../images/redux.png'
+import renderIcon from '../../images/render.png'
+import tailwindIcon from '../../images/tailwind.png'
+import vercelIcon from '../../images/vercel.png'
+import ASPNETIcon from '../../images/ASP.net.png'
+import githubIcon from '../../images/github.png'
+
 
 const Skills = () => {
   return (
     <div className={styles.skills} id='skills'>
+      <a href="#about" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
       <p>Explore My</p>
       <h1>Skills</h1>
       <div className={styles.allSkills}>
         <div className={styles.con}>
-          <h2>Scripting Languages</h2>
+          <p>Scripting Languages</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={htmlIcon} className={styles.icon} alt="checkmark" />
+              <p>HTML</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={CssIcon} className={styles.icon} alt="checkmark" />
+              <p>CSS</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={javaScriptIcon} className={styles.icon} alt="checkmark" />
+              <p>JavaScript</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>React</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={ReactIcon} className={styles.icon} alt="checkmark" />
+              <p>React</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>C++</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={CIcon} className={styles.icon} alt="checkmark" />
+              <p>C++</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Python</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Sass</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={reduxIcon} className={styles.icon} alt="checkmark" /> 
+              <p>Redux</p>
             </article>
           </div>
         </div>
         <div className={styles.con}>
-          <h2>FrameWorks</h2>
+          <p>FrameWorks</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Next.js</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={NextIcon} className={styles.icon} alt="checkmark" />
+              <p>Next.js</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Material-UI</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={materialUIIcon} className={styles.icon} alt="checkmark" />
+              <p>materialUI</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>React-Bootstrap</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={bootstrapIcon} className={styles.icon} alt="checkmark" />
+              <p>BootStrap</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Tailwind CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Angular</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={tailwindIcon} className={styles.icon} alt="checkmark" />
+              <p>Tailwind CSS</p>
             </article>
           </div>
         </div>
 
         <div className={styles.con}>
-          <h2>Backend</h2>
+          <p>Backend</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Node.js</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={nodeIcon} className={styles.icon} alt="checkmark" />
+              <p>Node JS</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Python</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={pythonIcon} className={styles.icon} alt="checkmark" />
+              <p>Python</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Express.js</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={expressIcon} className={styles.icon} alt="checkmark" />
+              <p>Express.js</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>ASP.NET</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={ASPNETIcon} className={styles.icon} alt="checkmark" />
+              <p>ASP.NET</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Django</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={djangoIcon} className={styles.icon} alt="checkmark" />
+              <p>Django</p>
             </article>
           </div>
         </div>
 
 
         <div className={styles.con}>
-          <h2>DataBases</h2>
+          <p>DataBases</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>MongoDB</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={mongoIcon} className={styles.icon} alt="checkmark" />
+              <p>MongoDB</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>MySql</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={mySqlIcon} className={styles.icon} alt="checkmark" />
+              <p>MySQL</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>MariaDB</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={mariaDBIcon} className={styles.icon} alt="checkmark" />
+              <p>MariaDB</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>FireBase</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={firebaseIcon} className={styles.icon} alt="checkmark" />
+              <p>FireBase DB</p>
             </article>
           </div>
         </div>
 
         <div className={styles.con}>
-          <h2>Hosting Platform</h2>
+          <p>Hosting Platform</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Netlify</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={netlifyIcon} className={styles.icon} alt="checkmark" />
+              
+                <p>Netlify</p>
+      
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>GitHUb Pages</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={githubIcon} className={styles.icon} alt="checkmark" />
+              <p>Github Pages</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Vercel</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={vercelIcon} className={styles.icon} alt="checkmark" />
+              <p>Vercel</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Heroku</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={herokuIcon} className={styles.icon} alt="checkmark" />
+              <p>Heroku</p>
             </article>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Render</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={renderIcon} className={styles.icon} alt="checkmark" />
+              <p>Render</p>
             </article>
           </div>
         </div>
 
         <div className={styles.con}>
-          <h2>Version Control</h2>
+          <p>Version Control</p>
           <div className={styles.articleContainer}>
             <article>
-              <img src={checkMark} className={styles.icon} alt="checkmark" />
-              <div>
-                <h3>Git</h3>
-                <p>Experienced</p>
-              </div>
+              <img src={gitIcon} className={styles.icon} alt="checkmark" />
+              <p>Git</p>
             </article>
 
           </div>
@@ -236,6 +179,7 @@ const Skills = () => {
 
     
       </div>
+      <a href="#projects" className={styles.Arrow}><img src={downArrow} className={styles.icon} alt="" /></a>
     </div>
   )
 }

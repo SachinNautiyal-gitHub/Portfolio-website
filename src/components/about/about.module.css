@@ -60,7 +60,6 @@
     text-align: center;
 }
 
-.aboutarrow{
+.Arrow{
     align-self: flex-end;
-    scroll-behavior: smooth;
 }

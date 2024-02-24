@@ -3,13 +3,15 @@ import styles from './about.module.css'
 import myImage from '../../images/my.png'
 import experienceIcon from '../../images/experience.png'
 import educationIcon from '../../images/education.png'
-import arrow from '../../images/arrow.png'
+import downArrow from '../../images/arrow.png'
+import upArrow from '../../images/uparrow.png'
 
 const About = () => {
   return (
     <>
 
       <div className={styles.about} id='about'>
+      <a href="#home" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
        <p className={styles.text1}> Get To Know more</p>
        <h1>About Me</h1>
        
@@ -38,7 +40,7 @@ const About = () => {
 
        </div>
 
-       <a href="#skills" className={styles.aboutarrow}><img src={arrow} className={styles.icon} alt="" /></a>
+       <a href="#skills" className={styles.Arrow}><img src={downArrow} className={styles.icon} alt="" /></a>
       </div>
 
     </>
