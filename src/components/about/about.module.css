@@ -1,93 +1,66 @@
-
-
-.about{
-    opacity: 0.7;
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 90vh;
-    padding-left: 20px;
-    
+    height: 100vh;
+    position: relative;
+    padding: 2rem;
 }
 
 
-.description{
-    background-color: white;
-    height: 70vh;
-    width: 40vw;
-    margin-top: 10px;
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-    font-size: 15px;
 
-}
-
-
-.buttons{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    height: 150px;
+    gap: 4rem;
+    height: 80%;
+    width: 90vw;
 }
 
+.picContainer {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
 
-.upworkButton{
-    border: 1px solid green;
-    width: 140px;
-    padding: 10px;
-    border-radius: 6px;
-    color: green;
+.picContainer img {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    border-radius: 2rem;
+    opacity: 0.7;
+}
+
+.aboutDetails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
     cursor: pointer;
+    height: 2rem;
 }
 
-.upworkButton:hover{
-    background-color: green;
-    color: white;
+.info {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-
-.githubButton{
-    border: 1px solid #2b3137;
-    width: 120px;
-    padding: 10px;
-    border-radius: 6px;
-    color: #2b3137;
-    cursor: pointer;
+.detail {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
 
-.githubButton:hover{
-    background-color: #2b3137;
-    color: white;
-}
-
-.linkedinButton{
-    border: 1px solid #0077b5;
-    width: 120px;
-    padding: 10px;
-    border-radius: 6px;
-    color: #0077b5;
-    cursor: pointer;
-}
-
-.linkedinButton:hover{
-    background-color: #0077b5;
-    color: white;
-}
-
-
-.resumeButton{
-    border: 1px solid #040a0d;
-    width: 120px;
-    padding: 10px;
-    border-radius: 6px;
-    color: #040a0d;
-    cursor: pointer;
-}
-
-.resumeButton:hover{
-    background-color: #040a0d;
-    color: white;
+.aboutarrow{
+    align-self: flex-end;
+    scroll-behavior: smooth;
 }

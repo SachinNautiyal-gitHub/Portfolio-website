@@ -14,3 +14,10 @@ p {
   color: rgb(85, 85, 85);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-size: 3rem;
+}
