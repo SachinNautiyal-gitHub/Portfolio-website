@@ -1,50 +1,97 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-
-.home{
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-    justify-content: center;
-    color: gray;
-    background-color: #e1d9d9;
-    align-items: center;
-    font-family: monospace;
-    border-bottom: 2px solid black;
 }
 
-.con{
-    display: flex;
-    gap: 80px;
+.con {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.image img{
-    height: 300px;
-    width: 350px;
-    border: 1px solid gray;
-    border-radius: 40%;
-    overflow: hidden; /* Ensure the circular border is visible */
-    animation: imageBorderRadiusAnimation 2s infinite alternate;
-    
+.image {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.contant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contant p {
+  font-weight: 600;
+}
+
+.text_P2{
+   font-size: 1.75rem;
+   margin-bottom: 1rem;
+}
+
+.title{
+  font-size: 3rem;  
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 
-@keyframes imageBorderRadiusAnimation {
-    0% {
-      border-radius: 25;
-    }
-    100% {
-      border-radius: 60%;
-    }
-  }
+.buttons button{
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: all 300ms ease;
+  font-weight: 600;
+  cursor: pointer;
 
-.techSTack{
-    gap: 20px;
-    display: flex;
-    margin-top: 100px;
-    cursor: pointer;
 }
 
-.techSTack img:hover{
-    scale: 1.2;
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.button2, 
+.button1:hover{
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+
+.button2:hover{
+  background-color: black;
+}
+
+.socialMedia{
+  display: flex;
+  scale: 0.8;
+  gap: 1rem;
+}
+
+.techSTack {
+  gap: 20px;
+  display: flex;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.techSTack img:hover {
+  scale: 1.2;
 }

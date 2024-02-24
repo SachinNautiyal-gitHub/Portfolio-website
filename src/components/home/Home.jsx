@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './home.module.css'
-import image from '../../images/IMG20230630145847.jpg'
+import image from '../../images/my.png'
 import HtmlIcon from '../../images/html.png'
 import cssIcon from '../../images/css.png'
 import tailwindIcon from '../../images/tailwind.png'
@@ -17,6 +17,9 @@ import pyhtonIcon from '../../images/python.png'
 import AngularIcon from '../../images/angular.png'
 
 
+import githubIcon from '../../images/github.png'
+import linkedinIcon from '../../images/linkedin.png'
+
 
 
 
@@ -25,17 +28,29 @@ const Home = () => {
         <>
             <div className={styles.home} id='home'>
                 <div className={styles.con}>
-                    <div className={styles.contant}>
-                        <h1>Hello !!</h1>
-                        <h2>I'm Sachin Nautiyal..</h2>
-                        <h1 style={{ color: '#CCA01D' }}>Full-Stack Web Developer</h1>
-                    </div>
 
-
-
-                    <div className={styles.image}>
+                <div className={styles.image}>
                         <img src={image} alt="" />
                     </div>
+                    <div className={styles.contant}>
+                        <p className={styles.text_P1}>Hello, I'm </p>
+                        <h1 className={styles.title}>Sachin Nautiyal</h1>
+                        <p className={styles.text_P2}>Full-Stack Web Developer</p>
+
+                        <div className={styles.buttons}>
+                           <a href=""><button className={styles.button1}>Download CV</button></a>
+                           <a href="#contact" style={{scrollBehavior:'smooth',}}><button className={styles.button2}>Contact Me</button></a>
+                        </div>
+
+                        <div className={styles.socialMedia}>
+                          <a href=""><img src={linkedinIcon} alt="" /></a>
+                          <a href="/"><img src={githubIcon} alt="" /></a>
+                        </div>
+                    </div>
+
+
+
+                    
                 </div>
                
 
