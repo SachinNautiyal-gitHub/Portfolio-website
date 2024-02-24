@@ -1,7 +1,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
 
@@ -84,6 +84,29 @@
   scale: 0.8;
   gap: 1rem;
 }
+
+.upwork{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  height: 100px;
+  gap: 1.5rem;
+}
+
+.upworkImage{
+  width: 90px;
+  border-radius: 2rem;
+  padding: 10px 22px;
+  border: 1px solid rgb(53, 53, 53);
+  position:center;
+}
+
+.upworkImage:hover{
+  background-color: rgb(70, 69, 69);
+}
+
+
 
 .techSTack {
   gap: 20px;
