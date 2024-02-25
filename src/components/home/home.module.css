@@ -118,3 +118,14 @@
 .techSTack img:hover {
   scale: 1.2;
 }
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.Arrow{
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
