@@ -1,28 +1,27 @@
-
-
-.projects{
+.projects {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 3rem;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
+    padding-top: 1rem;
 
 }
 
 
-.projectContainer{
+.projectContainer {
     width: 500px;
     border: rgb(163, 163, 163) 0.1rem solid;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
@@ -30,35 +29,34 @@
 
 }
 
-.projectContainer img{
+.projectContainer img {
     width: 500px;
     border-radius: 2rem;
     margin: 1rem;
 }
 
-.projectContainer img:hover{
-    
+.projectContainer img:hover {
+   
 }
 
 
-.buttons{
+.buttons {
     display: flex;
     margin-bottom: 1rem;
     gap: 2rem;
 }
 
-.buttons button{
+.buttons button {
     width: 8rem;
     padding: 1rem;
     border-radius: 2rem;
     transition: all 300ms ease;
     font-weight: 600;
     cursor: pointer;
-  
-  }
 
-  .buttons button:hover{
+}
+
+.buttons button:hover {
     background-color: rgb(53, 53, 53);
     color: white;
-  }
-
+}

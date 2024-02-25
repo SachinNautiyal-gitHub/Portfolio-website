@@ -18,45 +18,45 @@ const Projects = () => {
      <div className={styles.container}>
       
       <div className={styles.projectContainer}>
-         <img src={project1} alt="" />
+         <img src={project1} alt="" />   
          <div className={styles.buttons}>
-          <a href="https://github.com/SachinNautiyal-gitHub/Resume-Builder"><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="https://github.com/SachinNautiyal-gitHub/Resume-Builder" rel="noreferrer" target='_blank'><button>Source code</button></a>
+          <a href="https://resumebuilder-project-sachinnautiyal.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
          </div>
       </div>
       <div className={styles.projectContainer}>
       <img src={project2} alt="" />
       <div className={styles.buttons}>
-          <a href="https://github.com/SachinNautiyal-gitHub/Image-Gallery"><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="https://github.com/SachinNautiyal-gitHub/Image-Gallery" rel="noreferrer" target='_blank'><button>Source code</button></a>
+          <a href="https://nautiyalsachin-project-unsplashclon.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
          </div>
       </div>
       <div className={styles.projectContainer}>
       <img src={project3} alt="" />
       <div className={styles.buttons}>
-          <a href=""><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="https://github.com/SachinNautiyal-gitHub"><button>Source code</button></a>
+          <a href="https://nautiyal-sachin-project2-textanalyse.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
          </div>
       </div>
       <div className={styles.projectContainer}>
       <img src={project4} alt="" />
       <div className={styles.buttons}>
-          <a href="https://github.com/SachinNautiyal-gitHub/UrL-Shortner"><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="https://github.com/SachinNautiyal-gitHub/UrL-Shortner" rel="noreferrer" target='_blank'><button>Source code</button></a>
+          <a href="https://urlshortner-frontend.onrender.com/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
          </div>
       </div>
       <div className={styles.projectContainer}>
       <img src={project5} alt="" />
       <div className={styles.buttons}>
-          <a href="https://github.com/SachinNautiyal-gitHub/Simple-Weather-App"><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="https://github.com/SachinNautiyal-gitHub/Simple-Weather-App" rel="noreferrer" target='_blank'><button>Source code</button></a>
+          <a href="https://weather-app-nautiyal-sachin.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
          </div>
       </div>
       <div className={styles.projectContainer}>
       <img src={project6} alt="" />
       <div className={styles.buttons}>
-          <a href=""><button>Source code</button></a>
-          <a href=""><button>Live Demo</button></a>
+          <a href="/"><button>Source code</button></a>
+          <a href="/"><button>Live Demo</button></a>
          </div>
       </div>
 

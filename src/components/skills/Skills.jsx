@@ -39,7 +39,7 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className={styles.allSkills}>
         <div className={styles.con}>
-          <p>Scripting Languages</p>
+          <h4>Scripting Languages</h4>
           <div className={styles.articleContainer}>
             <article>
               <img src={htmlIcon} className={styles.icon} alt="checkmark" />
@@ -68,7 +68,7 @@ const Skills = () => {
           </div>
         </div>
         <div className={styles.con}>
-          <p>FrameWorks</p>
+          <h4>FrameWorks</h4>
           <div className={styles.articleContainer}>
             <article>
               <img src={NextIcon} className={styles.icon} alt="checkmark" />
@@ -90,7 +90,7 @@ const Skills = () => {
         </div>
 
         <div className={styles.con}>
-          <p>Backend</p>
+          <h4>Backend</h4>
           <div className={styles.articleContainer}>
             <article>
               <img src={nodeIcon} className={styles.icon} alt="checkmark" />
@@ -117,7 +117,7 @@ const Skills = () => {
 
 
         <div className={styles.con}>
-          <p>DataBases</p>
+          <h4>DataBases</h4>
           <div className={styles.articleContainer}>
             <article>
               <img src={mongoIcon} className={styles.icon} alt="checkmark" />
@@ -139,7 +139,7 @@ const Skills = () => {
         </div>
 
         <div className={styles.con}>
-          <p>Hosting Platform</p>
+          <h4>Hosting Platform</h4>
           <div className={styles.articleContainer}>
             <article>
               <img src={netlifyIcon} className={styles.icon} alt="checkmark" />
@@ -163,17 +163,6 @@ const Skills = () => {
               <img src={renderIcon} className={styles.icon} alt="checkmark" />
               <p>Render</p>
             </article>
-          </div>
-        </div>
-
-        <div className={styles.con}>
-          <p>Version Control</p>
-          <div className={styles.articleContainer}>
-            <article>
-              <img src={gitIcon} className={styles.icon} alt="checkmark" />
-              <p>Git</p>
-            </article>
-
           </div>
         </div>
 
