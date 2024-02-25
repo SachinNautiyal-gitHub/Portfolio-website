@@ -60,3 +60,14 @@
     background-color: rgb(53, 53, 53);
     color: white;
 }
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.Arrow{
+    align-self: flex-end;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}

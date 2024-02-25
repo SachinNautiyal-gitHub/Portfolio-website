@@ -8,12 +8,12 @@ import project5 from '../../images/Project5.png'
 import project6 from '../../images/Project6.png'
 
 import upArrow from '../../images/uparrow.png'
-import downArrow from '../../images/arrow.png'
 
 const Projects = () => {
   return (
     <>
     <div className={styles.projects} id='projects'>
+    <a href="#skills" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
      <h1>My Projects</h1>
      <div className={styles.container}>
       

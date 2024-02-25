@@ -11,7 +11,7 @@ const About = () => {
     <>
 
       <div className={styles.about} id='about'>
-      <a href="#home" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
+      <a href="#navbar" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
        <p className={styles.text1}> Get To Know more</p>
        <h1>About Me</h1>
        
