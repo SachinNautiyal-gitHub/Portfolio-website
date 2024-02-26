@@ -1,10 +1,8 @@
 .home {
   display: flex;
   flex-direction: column;
-  height: 90vh;
   justify-content: center;
   align-items: center;
-
 }
 
 .con {
@@ -129,3 +127,37 @@
   margin-top: 1rem;
   margin-right: 2rem;
 }
+
+
+@media (max-width: 900px){
+
+  .con{
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px){
+ 
+  .image{
+    height: 250px;
+    width: 250px;
+  }
+
+  .Arrow{
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 400px){
+   .title{
+    font-size: 2rem;
+   }
+
+   .text_P2{
+    font-size: 1.5rem;
+   }
+}
+

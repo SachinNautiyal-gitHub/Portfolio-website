@@ -40,3 +40,9 @@
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
+
+@media (max-width: 600px){
+    .footerMenu{
+        width: 100%;
+    }
+}

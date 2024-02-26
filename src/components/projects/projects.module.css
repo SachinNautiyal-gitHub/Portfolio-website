@@ -80,7 +80,49 @@
 
 .description {
     display: flex;
+    flex-direction: column;
     margin-bottom: 0.5rem;
     gap: 0.5rem;
     margin: 0.5rem;
 }
+
+
+@media (max-width: 550px) {
+    .projectContainer{
+        width: 400px;
+      }
+
+
+    .projectContainer img{
+        width: 400px;
+        margin: auto;
+    }
+
+
+    
+}
+
+
+
+@media (max-width: 500px){
+ 
+    .projectContainer{
+      width: 300px;
+    }
+
+    .projectContainer img {
+        width: 300px;
+    }
+
+    .projectContainer img:hover{
+        transform: scale(1);
+        border: none;
+        border-bottom: 2px solid black;
+    }
+  
+    .Arrow{
+      display: none;
+    }
+  
+  
+  }

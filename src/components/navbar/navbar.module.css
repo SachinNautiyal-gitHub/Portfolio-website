@@ -4,7 +4,6 @@
     align-items: center;
     padding: 10px;
     justify-content: space-between;
-    /* position: sticky; */
     top: 0;
     font-weight: 500;
 
@@ -19,7 +18,7 @@
 
 
 .logo img {
-    height: 150px;
+    height: 8rem;
     margin-left: 50px;
 }
 
@@ -50,3 +49,69 @@
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
+
+
+.menuIcon {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+  .hamburgermenu {
+    margin-top: 1rem;
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .hamburgermenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+
+  @media (max-width: 700px) {
+    .menuIcon {
+      display: block;
+       position: absolute;
+       top: 3rem;
+       right: 2rem;
+    }
+     
+
+    .navlist{
+         display: none;
+    }
+
+    .hamburgermenu {
+        display:flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+
+    }
+
+    .menuOpen{
+       display: flex;
+       align-items: flex-start;
+       height: 300px;
+    }
+
+    .logo img {
+      margin-left: 4px;
+    }
+
+  }

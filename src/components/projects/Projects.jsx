@@ -43,7 +43,7 @@ const Projects = () => {
                      <h3>Description:</h3><h5>Introducing Text Utilizer, a versatile app skillfully crafted with React. This application enhances your text handling capabilities with a sleek and intuitive interface. Whether it's formatting, transforming, or analyzing text, this app simplifies the process. Powered by React, it ensures a responsive and dynamic user experience. Seamlessly manipulate text with ease, thanks to the app's efficient design and user-friendly features. Text Utilizer is a testament to my proficiency in leveraging React to create practical and user-centric applications. Elevate your text manipulation tasks with this compact and powerful React-based Text Utilizer app.</h5>
                   </div>
                   <div className={styles.buttons}>
-                     <a href="https://github.com/SachinNautiyal-gitHub"><button>Source code</button></a>
+                     <a href="https://github.com/SachinNautiyal-gitHub" rel='noreferrer' target='_blank'><button>Source code</button></a>
                      <a href="https://nautiyal-sachin-project2-textanalyse.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
                   </div>
                </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                   </div>
                   <div className={styles.buttons}>
                      <a href="https://github.com/SachinNautiyal-gitHub/UrL-Shortner" rel="noreferrer" target='_blank'><button>Source code</button></a>
-                     <a href="https://urlshortner-frontend.onrender.com/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
+                     <a href="https://url-shortner-frontend-3d9q.onrender.com" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
                   </div>
                </div>
                <div className={styles.projectContainer}>
@@ -74,7 +74,7 @@ const Projects = () => {
                   </div>
                   <div className={styles.buttons}>
                      <a href="https://github.com/SachinNautiyal-gitHub/My-Notes-App-MERN--Project-" rel="noreferrer" target='_blank'><button>Source code</button></a>
-                     <a href="https://my-notes-app-mern-project.vercel.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
+                     <a href="https://notes-app-frontend-6xbs.onrender.com" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
                   </div>
                </div>
 
