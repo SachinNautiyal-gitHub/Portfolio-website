@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './about.module.css'
-import myImage from '../../images/my.png'
+import myImage from '../../images/photo.jpg'
 import experienceIcon from '../../images/experience.png'
 import educationIcon from '../../images/education.png'
 import downArrow from '../../images/arrow.png'

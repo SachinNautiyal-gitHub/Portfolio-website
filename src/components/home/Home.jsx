@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './home.module.css'
-import image from '../../images/my.png'
+import image from '../../images/my2.png'
 import downArrow from '../../images/arrow.png'
 
 
