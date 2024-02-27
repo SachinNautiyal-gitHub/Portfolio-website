@@ -26,7 +26,7 @@ const Home = () => {
                         <p className={styles.text_P2}>Full-Stack Web Developer</p>
 
                         <div className={styles.buttons}>
-                            <a href="/"><button className={styles.button1}>Download CV</button></a>
+                            <a href="https://drive.google.com/file/d/1ayFTs9_0d30J6dWSXv6VQ9f9K96Ib9Qw/view?usp=sharing"><button className={styles.button1}>Download CV</button></a>
                             <a href="#contact" style={{ scrollBehavior: 'smooth', }}><button className={styles.button2}>Contact Me</button></a>
                         </div>
 
