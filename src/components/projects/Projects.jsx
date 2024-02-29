@@ -24,7 +24,7 @@ const Projects = () => {
 
                   <div className={styles.buttons}>
                      <a href="https://github.com/SachinNautiyal-gitHub/Resume-Builder" rel="noreferrer" target='_blank'><button>Source code</button></a>
-                     <a href="https://resumebuilder-project-sachinnautiyal.netlify.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
+                     <a href="https://resume-builder-kappa-lovat.vercel.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
                   </div>
                </div>
                <div className={styles.projectContainer}>
