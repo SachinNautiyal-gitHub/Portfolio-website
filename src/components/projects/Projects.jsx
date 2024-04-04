@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './projects.module.css'
+
+import project from '../../images/project.png'
 import project1 from '../../images/Project1.png'
 import project2 from '../../images/Project2.png'
 import project3 from '../../images/Project3.png'
@@ -16,10 +18,21 @@ const Projects = () => {
             <a href="#skills" className={styles.Arrow}><img src={upArrow} className={styles.icon} alt="" /></a>
             <h1>My Projects</h1>
             <div className={styles.container}>
+            <div className={styles.projectContainer}>
+                  <img src={project} alt="" className={styles.image} />
+                  <div class={styles.description}>
+                     <h3>Description:</h3><h5> The entertainment app is an OTT platform built using React and Context API for the frontend, while the server-side utilizes Node.js, Express, and MongoDB for managing collections. The app allows users to access a wide range of movies and TV shows for streaming. Key features include the ability for users to bookmark their favorite movies, ensuring easy access to preferred content.To enhance security, JSON Web Token (JWT) implementation is employed to secure routes and ensure that user data remains protected. This mechanism helps in authenticating and authorizing users' access to various functionalities within the app.Overall, the entertainment app provides a seamless and secure platform for users to enjoy their favorite movies and TV shows.</h5>
+                  </div>
+
+                  <div className={styles.buttons}>
+                     <a href="https://github.com/SachinNautiyal-gitHub/Entertainment-App" rel="noreferrer" target='_blank'><button>Source code</button></a>
+                     <a href="https://entertainment-app-delta.vercel.app/" rel="noreferrer" target='_blank'><button>Live Demo</button></a>
+                  </div>
+               </div>
                <div className={styles.projectContainer}>
                   <img src={project1} alt="" className={styles.image} />
                   <div class={styles.description}>
-                     <h3>Description:</h3><h5> Introducing my Resume Builder App – a powerful tool crafted with React and Material-UI for a seamless user experience. Tailor your professional journey effortlessly with the intuitive interface and real-time previews. The application's React foundation ensures dynamic and responsive pages, while Material-UI styling elevates its visual appeal. This project not only showcases my React expertise but also reflects a commitment to user-centric design.</h5>
+                     <h3>Description:</h3><h5> Introducing my Resume Builder App – a powerful tool crafted with React and Material-UI for a seamless user experience. Tailor your professional journey effortlessly with the intuitive interface and real-time previews. The application's React foundation ensures dynamic and responsive pages, while Material-UI styling elevates its visual appeal,and Redux for state management, aimed at simplifying the process of crafting professional resumes.This project offers users a seamless and intuitive interface to create personalized resumes tailored to their unique skills, experiences, and preferences. This project not only showcases my React expertise but also reflects a commitment to user-centric design.</h5>
                   </div>
 
                   <div className={styles.buttons}>
@@ -40,7 +53,7 @@ const Projects = () => {
                <div className={styles.projectContainer}>
                   <img src={project3} alt="" />
                   <div class={styles.description}>
-                     <h3>Description:</h3><h5>Introducing Text Utilizer, a versatile app skillfully crafted with React. This application enhances your text handling capabilities with a sleek and intuitive interface. Whether it's formatting, transforming, or analyzing text, this app simplifies the process. Powered by React, it ensures a responsive and dynamic user experience. Seamlessly manipulate text with ease, thanks to the app's efficient design and user-friendly features. Text Utilizer is a testament to my proficiency in leveraging React to create practical and user-centric applications. Elevate your text manipulation tasks with this compact and powerful React-based Text Utilizer app.</h5>
+                     <h3>Description:</h3><h5>Introducing Text Utilizer, a versatile app skillfully crafted with React. This application enhances your text handling capabilities with a sleek and intuitive interface. Whether it's formatting, transforming, or analyzing text, this app simplifies the process. Powered by React, it ensures a responsive and dynamic user experience.Text Utilizer is a testament to my proficiency in leveraging React to create practical and user-centric applications. Elevate your text manipulation tasks with this compact and powerful React-based Text Utilizer app.</h5>
                   </div>
                   <div className={styles.buttons}>
                      <a href="https://github.com/SachinNautiyal-gitHub" rel='noreferrer' target='_blank'><button>Source code</button></a>
@@ -60,7 +73,7 @@ const Projects = () => {
                <div className={styles.projectContainer}>
                   <img src={project5} alt="" />
                   <div class={styles.description}>
-                     <h3>Description:</h3><h5>Introducing my Weather API application, a dynamic React.js project seamlessly integrated with RapidAPI. This user-friendly app provides real-time weather information with a sleek interface. Leveraging React.js ensures a responsive and engaging user experience, while RapidAPI supplies accurate and up-to-date weather data. Users can access current conditions, forecasts, and more, making informed decisions based on weather insights. This exemplifies my proficiency in React.js and API integration, delivering a compact yet powerful Weather API app for those seeking instant & reliable weather updates. Stay ahead with this efficient and visually appealing solution for weather information.</h5>
+                     <h3>Description:</h3><h5>Introducing my Weather API application, a dynamic React.js project seamlessly integrated with RapidAPI. This user-friendly app provides real-time weather information with a sleek interface. Leveraging React.js ensures a responsive and engaging user experience, while RapidAPI supplies accurate and up-to-date weather data. Users can access current conditions, forecasts, and more, making informed decisions based on weather insights. This exemplifies my proficiency in React.js and API integration, delivering a compact yet powerful Weather API app for those seeking instant & reliable weather updates.</h5>
                   </div>
                   <div className={styles.buttons}>
                      <a href="https://github.com/SachinNautiyal-gitHub/Simple-Weather-App" rel="noreferrer" target='_blank'><button>Source code</button></a>
