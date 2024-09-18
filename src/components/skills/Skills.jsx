@@ -26,7 +26,6 @@ import reduxIcon from '../../images/redux.png'
 import renderIcon from '../../images/render.png'
 import tailwindIcon from '../../images/tailwind.png'
 import vercelIcon from '../../images/vercel.png'
-import ASPNETIcon from '../../images/ASP.net.png'
 import githubIcon from '../../images/github.png'
 
 
@@ -102,10 +101,6 @@ const Skills = () => {
             <article>
               <img src={expressIcon} className={styles.icon} alt="checkmark" />
               <p>Express.js</p>
-            </article>
-            <article>
-              <img src={ASPNETIcon} className={styles.icon} alt="checkmark" />
-              <p>ASP.NET</p>
             </article>
             <article>
               <img src={djangoIcon} className={styles.icon} alt="checkmark" />
